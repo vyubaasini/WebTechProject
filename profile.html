@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store - Home Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+    <style>
+
+    html {
+      box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 15px;
+    }
+
+    .about-section {
+      padding: 100px;
+      text-align: center;
+      background-color: #474e5d;
+      color: white;
+      height: 400px;
+      background: black;
+    }
+
+    .container {
+      padding: 0 16px;
+      font-size: 15px;
+    }
+
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+      font-size: 35px;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 100px;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+
+    h6{
+        font-size: 30px;
+    }
+</style>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar"></nav>
+
+    <!-- mid section -->
+    <section id="about" class="mid-section">
+        <div class="about-section">
+  <h1>MEET THE TEAM</h1>
+  <h6>we are the developers<h6>
+  
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="img/developer/yuba.jpg" style="width:68%; height: 70%ci;"></center>
+      <div class="container">
+        <h2>Yubaasini a/p Visvanathan</h2>
+        <p class="title">System Analyst</p>
+        <p>ci210086</p>
+        <p>24 december 2000</p>
+        <p>011 - 1148 9136</p>
+        <p>ci210086@siswa.uthm.edu.my</p><br>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/developer/wong.jpeg" style="width:100%">
+      <div class="container">
+        <h2>Wong Car Sing</h2>
+        <p class="title">System Analyst</p>
+        <p>ai210326</p>
+        <p>25 february 2001</p>
+        <p>016 - 935 3888</p>
+        <p>ai210326@siswa.uthm.edu.my</p><br>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/developer/low.jpeg" style="width:100%">
+      <div class="container">
+        <h2>Low Cher Yong</h2>
+        <p class="title">System Analyst</p>
+        <p>ai210371</p>
+        <p>12 june 2001</p>
+        <p>012 - 755 8548</p>
+        <p>ai210371@siswa.uthm.edu.my</p><br>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="column">
+    <div class="card">
+      <img src="img/developer/ng.jpeg" style="width:100%">
+      <div class="container">
+        <h2>Ng Jing Jing</h2>
+        <p class="title">System Analyst</p>
+        <p>ai210325</p>
+        <p>25 february 2001</p>
+        <p>014 - 322 7406</p>
+        <p>ai210325@siswa.uthm.edu.my</p><br>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <center><img src="img/developer/fatini.jpeg" style="width:68%"></center>
+      <div class="container">
+        <h2>WAN NOR FATINI BINTI WAN FAUZI</h2>
+        <p class="title">System Analyst</p>
+        <p>ai210107</p>
+        <p>13 januari 2002</p>
+        <p>013 - 980 8213</p>
+        <p>ai210107@siswa.uthm.edu.my</p><br>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+    <script src="js/nav.js"></script>
+    <script src="js/home.js"></script>
+
+</body>
+</html>
